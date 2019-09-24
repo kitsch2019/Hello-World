@@ -1,4 +1,4 @@
-/**/
+/*********/
 char* StrCpy(char *src)
 {
 	int len=0;
