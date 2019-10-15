@@ -1,2 +1,9 @@
 language: c
-script: gcc commit.c -o commit
+dist: bionic
+sudo: required
+install:
+  -sudo apt update
+  -sudo apt-get install -y libcur14-openssl -dev
+  
+script: gcc hello.c -o hello -lcurl
+    - ./hello
