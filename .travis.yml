@@ -1,0 +1,2 @@
+language: c
+script: gcc commit.c -o commit
